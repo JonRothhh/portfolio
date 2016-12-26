@@ -8,10 +8,10 @@ var http = require('http');
 var path = require('path');
 var handlebars = require('express3-handlebars')
 
-var index = require('./routes/index');
-// Example route
-// var user = require('./routes/user');
 
+//variables for controller
+var index = require('./routes/index');
+var test = require('./routes/test');
 var app = express();
 
 // all environments
@@ -36,8 +36,7 @@ if ('development' == app.get('env')) {
 
 // Add routes here
 app.get('/', index.view);
-// Example route
-// app.get('/users', user.list);
+app.get('/testpage',test.view);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

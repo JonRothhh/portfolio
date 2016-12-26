@@ -34,7 +34,7 @@ General Style
   width: 100%;
   /* vertically align its content */
   display: table;
-  background: url('http://stormandsky.com/gif/t8.gif') no-repeat center center fixed;
+  background: url("../images/space.jpg"); no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -48,7 +48,7 @@ General Style
   vertical-align: middle;
   text-align: center;
   padding: 0 5%;
-  background-color:rgba(0, 0, 0,.5);
+  background-color:rgba(0, 0, 0,.2);
   
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
