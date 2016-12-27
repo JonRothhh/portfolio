@@ -8,6 +8,9 @@
 
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/styletest.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> <!--animated style-->
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"><!--pacifico font-->
+	
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
   	
 	<title>Jonathan's Portfolio</title>
@@ -30,12 +33,14 @@
 			<h1>Scroll down to view my latest project.</h1>
 		</div> <!-- cd-fixed-bg -->
 
-		<div class="cd-scrolling-bg cd-color-2">
+		<div class="cd-scrolling-bg cd-color-2" style="background-color: #80deea">
 			<div class="cd-container">
 
-			<h1>InfoHub</h1>
+			<h1 style="font-family: 'Pacifico', cursive;">InfoHub</h1>
 			<br>
-			<img src= "/images/iphone.png" style="width: 37%;">
+			<div>
+			<img class="iPhone" src= "/images/iphone.png" style="width: 37%; float: right; margin-left: 73; visibility: hidden;">
+			</div>
 					<p>
 						In my latest quarter at UCSD, me along with 2 others peers tried to find a way to move San Diego towards becoming a smart city. What we boiled down many of the issues plauging most cities of today is that its inhabitants don't always have the information necessary to make smart decisions in their daily life. For example, Joe Shmo leaving for work at 8:40 am may not know that there has been a car accident on the 5 south and will not make it to work in 20 minutes. Thus, him being on the road that late gets him to work late, and he also just adds to the congestion. If he was given more infomration, he would have made a smarter decision and would have gotten to work on time, as well as lessened the traffic that morning by not being on the road.
 					</p>
@@ -73,5 +78,6 @@
 	</main> <!-- cd-main-content -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="js/main.js"></script> <!-- Resource jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script> <!--materialize-->
 </body>
 </html>
