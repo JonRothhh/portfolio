@@ -86,7 +86,7 @@ Main components
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
-  z-index: 1;
+  z-index: 3;
 }
 .no-touch #cd-vertical-nav li {
   text-align: right;
@@ -131,7 +131,7 @@ Main components
   height: 12px;
   width: 12px;
   border-radius: 50%;
-  background-color: #81d4fa;
+  background-color: #eceff1;
   -webkit-transition: -webkit-transform 0.2s, background-color 0.5s;
   -moz-transition: -moz-transform 0.2s, background-color 0.5s;
   transition: transform 0.2s, background-color 0.5s;
