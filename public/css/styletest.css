@@ -156,7 +156,7 @@ Main components
     background: transparent;
     padding: .6em 1em;
     border-top: none;
-    color: #3d3536;
+    color: #546e7a;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 14px;
@@ -259,4 +259,18 @@ Main components
     line-height: 2;
     font-weight: 300;
   }
+}
+
+.infoscreen {
+  width: 375px;
+  height: 667px;
+  z-index: 2;
+  position: absolute;
+  margin-top: 101px; 
+  margin-left: 28px;
+}
+
+.iphone {
+  width: 432px;
+  z-index: 1;
 }
