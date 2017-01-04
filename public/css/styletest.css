@@ -163,7 +163,7 @@ Main components
     font-size: 0.875rem;
   }
   .no-touch .cd-main-nav a:hover {
-    color: #99a478;
+    color: #40c4ff;
   }
 }
 
@@ -211,7 +211,7 @@ Main components
   background-image: url("../images/cd-background-3.jpg");
 }
 .cd-fixed-bg.cd-bg-4 {
-  background-image: url("../images/cd-background-4.jpg");
+  background-image:;
 }
 @media only screen and (min-width: 768px) {
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
