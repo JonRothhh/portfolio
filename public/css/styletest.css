@@ -231,31 +231,28 @@ Main components
 
 .cd-scrolling-bg {
   position: relative;
-  min-height: 100%;
-  padding: 4em 0;
+  height: 90%;
   line-height: 1.6;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
 .cd-scrolling-bg.cd-color-1 {
-  background-color: #3d3536;
-  color: #a6989a;
+  background-color: #37474f;
+  color: white;
 
 }
 .cd-scrolling-bg.cd-color-2 {
-  background-color: #99a478;
-  color: #3d3536;
-  background-color: #80deea;
+  color: white;
+  background-color: #37474f;
   
 }
 .cd-scrolling-bg.cd-color-3 {
-  background-color: #b4d7a8;
-  color: #3d3536;
+  background-color: #37474f;
+  color: white;
   
 }
 @media only screen and (min-width: 768px) {
   .cd-scrolling-bg {
-    padding: 8em 0;
     font-size: 20px;
     font-size: 1.25rem;
     line-height: 2;
@@ -287,6 +284,7 @@ Main components
 .infoHub_Title {
   font-family: 'Pacifico', cursive;
   font-size: 56px;
+  text-align: center;
 }
 
 .testicles {
@@ -306,21 +304,22 @@ Main components
   color: #40c4ff;
 }
 
-.nav_link {
-  color: #40c4ff;
-}
 
 #title {
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
 }
 
 .retroshadow {
-    color: #2c2c2c;
+    color: #546e7a;
     background-color: transparent;
     letter-spacing: .05em;
     text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.95), 2px 2px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  #title:hover {
+    color: #40c4ff;
   }
