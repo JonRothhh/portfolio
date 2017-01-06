@@ -309,3 +309,18 @@ Main components
 .nav_link {
   color: #40c4ff;
 }
+
+#title {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+
+.retroshadow {
+    color: #2c2c2c;
+    background-color: transparent;
+    letter-spacing: .05em;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.95), 2px 2px 0px rgba(0, 0, 0, 0.2);
+  }
