@@ -5,9 +5,9 @@ jQuery(document).ready(function($){
 	});
 
   var options = [
-    {selector: '.iPhone', offset: 500, callback: function(el) {
-    	$('.iPhone').css('visibility', 'visible');
-    	$('.iPhone').addClass('animated slideInRight');
+    {selector: '.iphone1', offset: 500, callback: function(el) {
+    	$('.iphone1').css('visibility', 'visible');
+    	$('.iphone1').addClass('animated slideInRight');
       
     } }
   ];

@@ -177,6 +177,7 @@ Main components
 .cd-fixed-bg {
   position: relative;
   min-height: 100%;
+  background-size: cover;
  
   background-repeat: no-repeat;
   background-position: center center;
@@ -244,6 +245,7 @@ Main components
 .cd-scrolling-bg.cd-color-2 {
   background-color: #99a478;
   color: #3d3536;
+  background-color: #80deea;
   
 }
 .cd-scrolling-bg.cd-color-3 {
@@ -270,7 +272,40 @@ Main components
   margin-left: 28px;
 }
 
-.iphone {
+.iphone1 {
+  width: 35%;
+  float: right;
+  visibility: hidden;
+  margin-left: 100px;
+}
+
+.iphone2 {
   width: 432px;
   z-index: 1;
+}
+
+.infoHub_Title {
+  font-family: 'Pacifico', cursive;
+  font-size: 56px;
+}
+
+.testicles {
+  color: #434343;
+  font-size: 1.7em;
+  line-height: 1.8em;
+  font-weight: 100;
+  text-align: center;
+}
+
+.link {
+  color: #546e7a;
+  border-bottom: 1px dotted;
+}
+
+.link:hover {
+  color: #40c4ff;
+}
+
+.nav_link {
+  color: #40c4ff;
 }
