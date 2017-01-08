@@ -276,6 +276,8 @@ Main components
   float: right;
   visibility: hidden;
   margin-left: 100px;
+  margin-right: 30px;
+  margin-top: -90px;
 }
 
 .iphone2 {
@@ -326,4 +328,9 @@ Main components
   
   #title:hover {
     
+  }
+
+  .introduction_paragraph {
+    float: left;
+    width: 390px;
   }

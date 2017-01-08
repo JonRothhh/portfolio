@@ -18,6 +18,12 @@ jQuery(document).ready(function($){
         smoothScroll($(this.hash));
     });
 
+          	//smooth scroll to the portfolio section from portfolio nav
+	$('.hvr-bounce-to-bottom').on('click', function(event){
+        event.preventDefault();
+        smoothScroll($(this.hash));
+    });
+
     //open-close navigation on touch devices
     $('.touch .cd-nav-trigger').on('click', function(){
     	$('.touch #cd-vertical-nav').toggleClass('open');
@@ -45,5 +51,6 @@ jQuery(document).ready(function($){
         	{'scrollTop':target.offset().top - 70},
         	600
         );
+
 	}
 });
