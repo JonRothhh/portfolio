@@ -267,8 +267,10 @@ Main components
   height: 667px;
   z-index: 2;
   position: absolute;
-  margin-top: 101px; 
-  margin-left: 28px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-left: 652px;
 }
 
 .iphone1 {
@@ -281,8 +283,11 @@ Main components
 }
 
 .iphone2 {
+  display: block;
+  margin: 0 auto;
   width: 432px;
   z-index: 1;
+  position: relative;
 }
 
 .infoHub_Title {
