@@ -48,7 +48,7 @@ jQuery(document).ready(function($){
 
 	function smoothScroll(target) {
         $('body,html').animate(
-        	{'scrollTop':target.offset().top - 70},
+        	{'scrollTop':target.offset().top - 53},
         	600
         );
 

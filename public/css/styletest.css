@@ -213,7 +213,7 @@ Main components
   height: 95%;
 }
 .cd-fixed-bg.cd-bg-4 {
-  background-image:;
+  background-image: url("../images/final1.jpg");
   height: 95%;
 }
 @media only screen and (min-width: 768px) {
@@ -269,8 +269,8 @@ Main components
   position: absolute;
   display: block;
   margin: 0 auto;
-  margin-top: 100px;
-  margin-left: 652px;
+  margin-top: 98px;
+  margin-left: 1067px;
 }
 
 .iphone1 {
@@ -283,8 +283,7 @@ Main components
 }
 
 .iphone2 {
-  display: block;
-  margin: 0 auto;
+  margin-left: 390px;
   width: 432px;
   z-index: 1;
   position: relative;
@@ -338,4 +337,16 @@ Main components
   .introduction_paragraph {
     float: left;
     width: 390px;
+  }
+
+  .info_for_final_screen {
+   display: inline-block;
+   float: left;
+   width: 350px;
+   padding-top: 300px;
+   padding-left: 100px;
+   padding-right: 5px;
+   margin-left: 300px;
+   line-height: 2;
+   font-weight: 300;
   }

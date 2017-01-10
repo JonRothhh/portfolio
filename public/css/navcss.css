@@ -68,7 +68,7 @@ Main components
   bottom: 20px;
   width: 38px;
   height: 44px;
-  background: url("../images/cd-arrow-bottom.svg") no-repeat center center;
+  background: url("../images/cd-arrow-bottom1.svg") no-repeat center center;
 }
 
 /* No Touch devices */
@@ -122,7 +122,7 @@ Main components
   opacity: 1;
 }
 .no-touch #cd-vertical-nav a.is-selected .cd-dot {
-  background-color: white;
+  background-color: blue;
 }
 .no-touch #cd-vertical-nav .cd-dot {
   position: relative;
