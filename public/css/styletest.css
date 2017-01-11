@@ -283,7 +283,7 @@ Main components
 }
 
 .iphone2 {
-  margin-left: 390px;
+  margin-left: 300px;
   width: 432px;
   z-index: 1;
   position: relative;
@@ -334,6 +334,7 @@ Main components
     
   }
 
+
   .introduction_paragraph {
     float: left;
     width: 390px;
@@ -342,12 +343,14 @@ Main components
   .info_for_final_screen {
    display: inline-block;
    float: left;
-   width: 350px;
+   width: 500px;
    padding-top: 300px;
    padding-left: 100px;
    padding-right: 5px;
-   margin-left: 300px;
+   margin-left: 240px;
    line-height: 2;
    font-weight: 300;
+   text-align: center;
    color: #37474f;
   }
+
