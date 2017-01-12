@@ -269,8 +269,8 @@ Main components
   position: absolute;
   display: block;
   margin: 0 auto;
-  margin-left: 195px;
-  margin-top: 99px
+  margin-left: 27px;
+  margin-top: 99px;
 }
 
 .iphone1 {
@@ -283,11 +283,13 @@ Main components
 }
 
 .iphone2 {
-  margin-left: 10vw;
   width: 432px;
-  z-index: 1;
   position: relative;
 }
+/*
+  z-index: 1;
+  margin-left: 10vw;
+**/
 
 .infoHub_Title {
   font-family: 'Pacifico', cursive;
@@ -342,12 +344,7 @@ Main components
 
   .info_for_final_screen {
    display: inline-block;
-   float: left;
    width: 500px;
-   padding-top: 300px;
-   padding-left: 100px;
-   padding-right: 5px;
-   margin-left: 14vw;
    line-height: 2;
    font-weight: 300;
    text-align: center;
@@ -356,7 +353,23 @@ Main components
 
   .contributions_style {
     font-family: pacifico;
-    text-align: left;
+    padding-top: 5vw;
+    padding-right: 80px;
 
+  }
+
+  .cd-container.one {
+
+    max-width: 1210px;
+
+  }
+
+  .col-md-6.one{
+    padding-top: 300px;
+  }
+
+  .col-md-6.two {
+    padding-left: 188px;
+    padding-right: 0px;
   }
 
