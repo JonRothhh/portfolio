@@ -299,6 +299,17 @@ Main components
   padding-top: 90px;
 }
 
+.infoHub_needfinding {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5em;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.needfinding_p {
+  text-align: center;
+}
+
 .testicles {
   color: #434343;
   font-size: 1.7em;
@@ -364,6 +375,12 @@ Main components
 
   }
 
+   .cd-container.two {
+
+    max-width: 70%;
+
+  }
+
   .col-md-6.one{
     padding-top: 300px;
   }
@@ -372,4 +389,12 @@ Main components
     padding-left: 188px;
     padding-right: 0px;
   }
+
+  #section3.cd-section_one {
+    padding-top: 2em;
+    min-height: 100%;
+  }
+
+  #iphone_align {
+      }
 

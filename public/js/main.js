@@ -12,4 +12,9 @@ jQuery(document).ready(function($){
     } }
   ];
   Materialize.scrollFire(options);
+  $("#container_height").height($("#section3").height());
+  $("#row_height").height($("#section3").height());
+  $("#col_height").height($("#section3").height());
+
+  $("#iphone_align").width($("#row_height").width()*.75);
 });
