@@ -303,7 +303,7 @@ Main components
   font-family: 'Pacifico', cursive;
   font-size: 2.5em;
   text-align: center;
-  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .needfinding_p {
@@ -395,6 +395,7 @@ Main components
     min-height: 100%;
   }
 
-  #iphone_align {
-      }
+  #row_height.row {
+    text-align: center;
+}
 
