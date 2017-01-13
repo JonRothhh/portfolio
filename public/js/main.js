@@ -16,5 +16,5 @@ jQuery(document).ready(function($){
   $("#row_height").height($("#section3").height());
   $("#col_height").height($("#section3").height());
 
-  $("#iphone_align").width($("#row_height").width()*.75);
+  $("#iphone_align").height($("#col_height").height() - ($("#needfinding_height").height() + 20 + $("#p_height").height()));
 });
