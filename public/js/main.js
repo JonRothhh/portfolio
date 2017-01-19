@@ -11,7 +11,16 @@ jQuery(document).ready(function($){
       
     } }
   ];
+
+  var options1 = [
+    {selector: '.circle_feel', offset: 300, callback: function(el) {
+      $('.circle_feel').css('visibility', 'visible');
+      $('.circle_feel').addClass('animated slideInDown');
+      
+    } }
+  ];
   Materialize.scrollFire(options);
+  Materialize.scrollFire(options1);
   $("#container_height").height($("#section3").height());
   $("#row_height").height($("#section3").height());
   $("#col_height").height($("#section3").height());
