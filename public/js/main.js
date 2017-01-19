@@ -24,6 +24,11 @@ jQuery(document).ready(function($){
   $("#container_height").height($("#section3").height());
   $("#row_height").height($("#section3").height());
   $("#col_height").height($("#section3").height());
+  /*
+  $("#section4").height($(".cd-scrolling-bg.cd-color-1").height());
+  $("#last_container").height($(".cd-scrolling-bg.cd-color-1").height());
+  $("#last_row").height($(".cd-scrolling-bg.cd-color-1").height());
+  **/
 
   $("#iphone_align").height($("#col_height").height() - ($("#needfinding_height").height() + 40 + $("#p_height").height()));
 });

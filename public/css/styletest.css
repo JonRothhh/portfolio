@@ -309,6 +309,7 @@ Main components
 .needfinding_p {
   text-align: center;
   padding-bottom: 20px;
+  font-size: 1.5vw;
 }
 
 .testicles {
@@ -384,11 +385,17 @@ Main components
 
   .col-md-6.one{
     padding-top: 300px;
+    font-size: 1.5vh;
   }
 
   .col-md-6.two {
     padding-left: 188px;
     padding-right: 0px;
+  }
+
+  .cd-section3 {
+    max-height: 100%;
+    padding: 2em 0;
   }
 
   #section3.cd-section_one {
@@ -398,5 +405,9 @@ Main components
 
   #row_height.row {
     text-align: center;
+}
+
+#last_row {
+  font-size: 1vw;
 }
 
