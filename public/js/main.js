@@ -19,8 +19,52 @@ jQuery(document).ready(function($){
       
     } }
   ];
+
+   var options2 = [
+    {selector: '.cd-fixed-bg.cd-bg-4', offset: 910, callback: function(el) {
+            // create the notification
+    var notification = new NotificationFx({
+
+      // element to which the notification will be appended
+      // defaults to the document.body
+      wrapper : document.getElementById('toaster_strudel'),
+
+      // the message
+      message : '<span style="font-size: 3em;margin-left: -13px; margin-top: 17px;" class="icon li_bubble"></span><p>Enough of my rambling. Try InfoHub out for yourself below!</p>',
+
+      // layout type: growl|attached|bar|other
+      layout : 'bar',
+
+      // effects for the specified layout:
+      // for growl layout: scale|slide|genie|jelly
+      // for attached layout: flip|bouncyflip
+      // for other layout: boxspinner|cornerexpand|loadingcircle|thumbslider
+      // ...
+      effect : 'slidetop',
+
+      // notice, warning, error, success
+      // will add class ns-type-warning, ns-type-error or ns-type-success
+      type : 'notice',
+
+      // if the user doesn´t close the notification then we remove it 
+      // after the following time
+      ttl : 60000000,
+
+      // callbacks
+      onClose : function() { return false; },
+      onOpen : function() { return false; }
+
+    });
+
+    // show the notification
+    notification.show();
+          
+    } }
+  ];
+
   Materialize.scrollFire(options);
   Materialize.scrollFire(options1);
+  Materialize.scrollFire(options2);
   $("#container_height").height($("#section3").height());
   $("#row_height").height($("#section3").height());
   $("#col_height").height($("#section3").height());
@@ -31,42 +75,9 @@ jQuery(document).ready(function($){
   **/
 
   $("#iphone_align").height($("#col_height").height() - ($("#needfinding_height").height() + 40 + $("#p_height").height()));
-  
 
-  // create the notification
-var notification = new NotificationFx({
 
-  // element to which the notification will be appended
-  // defaults to the document.body
-  wrapper : document.getElementById('toaster_strudel'),
+}); /*the end bracket**/
 
-  // the message
-  message : '<p>Try InfoHub for yourself!</p>',
 
-  // layout type: growl|attached|bar|other
-  layout : 'other',
 
-  // effects for the specified layout:
-  // for growl layout: scale|slide|genie|jelly
-  // for attached layout: flip|bouncyflip
-  // for other layout: boxspinner|cornerexpand|loadingcircle|thumbslider
-  // ...
-  effect : 'boxspinner',
-
-  // notice, warning, error, success
-  // will add class ns-type-warning, ns-type-error or ns-type-success
-  type : 'notice',
-
-  // if the user doesn´t close the notification then we remove it 
-  // after the following time
-  ttl : 6000,
-
-  // callbacks
-  onClose : function() { return false; },
-  onOpen : function() { return false; }
-
-});
-
-// show the notification
-notification.show();
-});
