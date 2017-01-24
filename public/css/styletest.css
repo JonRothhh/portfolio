@@ -464,3 +464,9 @@ Main components
   padding-top: 2em;
 }
 
+.img-center {
+  display: block;
+  margin: auto;
+
+}
+
