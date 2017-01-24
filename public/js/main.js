@@ -22,7 +22,7 @@ jQuery(document).ready(function($){
   **/
 
    var options2 = [
-    {selector: '.cd-fixed-bg.cd-bg-4', offset: 910, callback: function(el) {
+    {selector: '.cd-fixed-bg.cd-bg-4', offset: 880, callback: function(el) {
             // create the notification
     var notification = new NotificationFx({
 
