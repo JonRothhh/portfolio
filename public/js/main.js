@@ -11,7 +11,7 @@ jQuery(document).ready(function($){
       
     } }
   ];
-
+/*
   var options1 = [
     {selector: '.circle_feel', offset: 300, callback: function(el) {
       $('.circle_feel').css('visibility', 'visible');
@@ -19,6 +19,7 @@ jQuery(document).ready(function($){
       
     } }
   ];
+  **/
 
    var options2 = [
     {selector: '.cd-fixed-bg.cd-bg-4', offset: 910, callback: function(el) {
@@ -48,7 +49,7 @@ jQuery(document).ready(function($){
 
       // if the user doesn´t close the notification then we remove it 
       // after the following time
-      ttl : 60000000,
+      ttl : 6000,
 
       // callbacks
       onClose : function() { return false; },
@@ -63,7 +64,9 @@ jQuery(document).ready(function($){
   ];
 
   Materialize.scrollFire(options);
+  /*
   Materialize.scrollFire(options1);
+  **/
   Materialize.scrollFire(options2);
   $("#container_height").height($("#section3").height());
   $("#row_height").height($("#section3").height());

@@ -273,6 +273,18 @@ Main components
   margin-top: 99px;
 }
 
+.infoscreen1 {
+  position: absolute;
+  width: 375px;
+  height: 767px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  padding-top: 100px;
+
+}
+
 .iphone1 {
   width: 35%;
   float: right;
@@ -283,8 +295,24 @@ Main components
 }
 
 .iphone2 {
-  width: 432px;
-  position: relative;
+  max-width: 432px;
+  padding-left: 0;
+  display: block;
+  margin: auto;
+  /*position: relative;
+  max-width: none;
+  */
+}
+
+
+
+.iphone3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
 /*
   z-index: 1;
@@ -357,19 +385,21 @@ Main components
 
   .info_for_final_screen {
    display: inline-block;
-   width: 500px;
+   /*width: 500px;**/
    line-height: 2;
    font-weight: 300;
+   font-size: 2vh;
    text-align: center;
+   padding-bottom: 20px;
    color: #37474f;
   }
 
   .contributions_style {
     font-family: pacifico;
-    padding-top: 5vw;
-    padding-right: 80px;
-
+   /* padding-top: 5vw;*/
+    /*padding-right: 80px;*/
   }
+  
 
   .cd-container.one {
 
@@ -383,15 +413,26 @@ Main components
 
   }
 
+    .cd-container.two {
+
+    max-width: 80%;
+
+  }
+
   .col-md-6.one{
     padding-top: 300px;
     font-size: 1.5vh;
   }
 
+
   .col-md-6.two {
+
+    /*
     padding-left: 188px;
     padding-right: 0px;
+    */
   }
+  
 
   .cd-section3 {
     max-height: 100%;
@@ -409,5 +450,17 @@ Main components
 
 #last_row {
   font-size: 1vw;
+}
+
+/*.iphone_reshape_div {
+  position: relative;
+  width: 375px;
+  height: 667px;
+}
+*/
+
+.cd-section5 {
+  min-height: 100%;
+  padding-top: 2em;
 }
 
