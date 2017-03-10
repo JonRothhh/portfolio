@@ -285,14 +285,16 @@ Main components
 
 }
 
+
 .iphone1 {
-  width: 35%;
-  float: right;
+  height: 550px;
   visibility: hidden;
-  margin-left: 100px;
-  margin-right: 30px;
-  margin-top: -90px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+
 }
+
 
 .iphone2 {
   max-width: 432px;
