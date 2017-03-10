@@ -395,7 +395,7 @@ Main components
    /*width: 500px;**/
    line-height: 2;
    font-weight: 300;
-   font-size: 2vh;
+   font-size: 1vw;
    text-align: center;
    padding-bottom: 20px;
    color: #37474f;
@@ -485,3 +485,6 @@ Main components
   overflow: hidden;
 }
 
+#images_triple {
+  max-width: 90%;
+}
