@@ -287,7 +287,7 @@ Main components
 
 
 .iphone1 {
-  height: 550px;
+  height: 700px;
   visibility: hidden;
   display: block;
   margin: 0 auto;
@@ -324,9 +324,9 @@ Main components
 .infoHub_Title {
   font-family: 'Pacifico', cursive;
   font-size: 2.5em;
-  text-align: left;
+  margin: 0 auto;
   max-width: 180px;
-  padding-top: 90px;
+  padding-top: 50px;
 }
 
 .infoHub_needfinding {
@@ -382,7 +382,12 @@ Main components
 
   .introduction_paragraph {
     float: left;
+    text-align: left;
+    padding-bottom: 20px;
+    font-size: 1.3vw;
+    /*
     width: 390px;
+    */
   }
 
   .info_for_final_screen {
@@ -470,5 +475,9 @@ Main components
   display: block;
   margin: auto;
 
+}
+
+#first_infopage {
+  overflow: hidden;
 }
 
