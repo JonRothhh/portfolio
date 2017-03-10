@@ -77,7 +77,11 @@ jQuery(document).ready(function($){
   $("#last_row").height($(".cd-scrolling-bg.cd-color-1").height());
   **/
 
+
   $("#iphone_align").height($("#col_height").height() - ($("#needfinding_height").height() + 40 + $("#p_height").height()));
+
+
+
 
 
 }); /*the end bracket**/
