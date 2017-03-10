@@ -7,7 +7,7 @@ jQuery(document).ready(function($){
   var options = [
     {selector: '.iphone1', offset: 700, callback: function(el) {
     	$('.iphone1').css('visibility', 'visible');
-    	$('.iphone1').addClass('animated slideInRight');
+    	$('.iphone1').addClass('animated slideInLeft');
       
     } }
   ];
