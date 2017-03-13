@@ -4,6 +4,10 @@ jQuery(document).ready(function($){
 		if($(event.target).is('.cd-main-nav')) $(this).children('ul').toggleClass('is-visible');
 	});
 
+   if (screen.width <= 950) {
+    window.location = "https://www.google.com/";
+  };
+
   var options = [
     {selector: '.iphone1', offset: 700, callback: function(el) {
     	$('.iphone1').css('visibility', 'visible');
@@ -77,8 +81,9 @@ jQuery(document).ready(function($){
   $("#last_row").height($(".cd-scrolling-bg.cd-color-1").height());
   **/
 
-
+  $(window).load(function() {
   $("#iphone_align").height($("#col_height").height() - ($("#needfinding_height").height() + 40 + $("#p_height").height()));
+});
 
 
 
