@@ -82,9 +82,9 @@ jQuery(document).ready(function($){
   **/
 
 
-
+$(document).ready(function(){
 $("#iphone_align").height($("#col_height").height() - ($("#needfinding_height").height() + $("#p_height").height()));
-
+});
 
 
 }); /*the end bracket**/
