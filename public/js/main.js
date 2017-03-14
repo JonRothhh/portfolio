@@ -81,11 +81,9 @@ jQuery(document).ready(function($){
   $("#last_row").height($(".cd-scrolling-bg.cd-color-1").height());
   **/
 
-  $(window).load(function() {
-  $("#iphone_align").height($("#col_height").height() - ($("#needfinding_height").height() + 40 + $("#p_height").height()));
-});
 
 
+$("#iphone_align").height($("#col_height").height() - ($("#needfinding_height").height() + $("#p_height").height()));
 
 
 
