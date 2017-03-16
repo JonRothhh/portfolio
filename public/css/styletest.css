@@ -279,11 +279,9 @@ Main components
   margin-right: auto;
   left: 0;
   right: 0;
-  width: 100%;
-  height: 100%;
-  padding-bottom: 48.89%;
-
-
+  margin-top: 106px;
+  width:375px; 
+  height:664px;
 }
 
 
@@ -303,6 +301,8 @@ Main components
   padding-left: 0;
   display: block;
   margin: auto;
+  width: 429px;
+  object-fit: contain;
   /*position: relative;
   max-width: none;
   */
