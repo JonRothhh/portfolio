@@ -5,7 +5,7 @@ jQuery(document).ready(function($){
 	});
 
    if (screen.width <= 950) {
-    window.location = "https://www.google.com/";
+    window.location = "https://www.designbyjon.com/sorry";
   };
 
   var options = [

@@ -34,7 +34,7 @@ General Style
   width: 100%;
   /* vertically align its content */
   display: table;
-  background: url("../images/space.jpg"); no-repeat center center fixed;
+  background: url("../images/sorry.jpg"); no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -94,7 +94,7 @@ General Style
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
-  background-color: #202e4a;
+  background-color: #af413d;
   border-radius: .25em;
   margin-right: 1.5em;
 }

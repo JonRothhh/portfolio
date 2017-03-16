@@ -40,3 +40,7 @@ exports.view = function(req, res){
 	]
   });
 };
+
+exports.view1 = function(req, res){
+  res.render('sorry');
+  };
