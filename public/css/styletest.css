@@ -483,6 +483,14 @@ Main components
   overflow: hidden;
 }
 
+#second_infopage {
+  overflow: hidden;
+}
+
+#last_page {
+  overflow: hidden;
+}
+
 #three_pairs_page {
   overflow: hidden;
 }
