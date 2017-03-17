@@ -4,9 +4,6 @@ jQuery(document).ready(function($){
 		if($(event.target).is('.cd-main-nav')) $(this).children('ul').toggleClass('is-visible');
 	});
 
-   if (screen.width <= 950) {
-    window.location = "http://www.designbyjon.com/oops";
-  };
 
   var options = [
     {selector: '.iphone1', offset: 700, callback: function(el) {
