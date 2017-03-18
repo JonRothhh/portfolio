@@ -5,6 +5,7 @@ jQuery(document).ready(function($){
 	updateNavigation();
 	$(window).on('scroll', function(){
 		updateNavigation();
+        changeNavColor();
 	});
 
 	//smooth scroll to the section
@@ -45,6 +46,20 @@ jQuery(document).ready(function($){
 			}
 		});
 	}
+
+    function changeNavColor() {
+        contentSections.each(function(){
+            $this = $('#section5'); 
+            var button = $('#cd-vertical-nav a[href="#'+$this.attr('id')+'"]').data('number') - 1;
+            if ( ( $this.offset().top - $(window).height()/2 < $(window).scrollTop() ) && ( $this.offset().top + $this.height() - $(window).height()/2 > $(window).scrollTop() ) ) {
+                navigationItems.eq(button).addClass('is-selected1');
+                $('.cd-label').css('color','#0097a7');
+            } else {
+                navigationItems.eq(button).removeClass('is-selected1');
+                $('.cd-label').css('color','white');
+            }
+        });
+    };
 
 	function smoothScroll(target) {
         $('body,html').animate(

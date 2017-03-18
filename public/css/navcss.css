@@ -124,6 +124,11 @@ Main components
 .no-touch #cd-vertical-nav a.is-selected .cd-dot {
   background-color: #cfd8dc;
 }
+
+.no-touch #cd-vertical-nav a.is-selected1 .cd-dot {
+  background-color: #bac2c6;
+}
+
 .no-touch #cd-vertical-nav .cd-dot {
   position: relative;
   /* we set a top value in order to align the dot with the label. If you change label's font, you may need to change this top value*/
