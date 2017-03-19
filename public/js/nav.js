@@ -41,6 +41,7 @@ jQuery(document).ready(function($){
 			var activeSection = $('#cd-vertical-nav a[href="#'+$this.attr('id')+'"]').data('number') - 1;
 			if ( ( $this.offset().top - $(window).height()/2 < $(window).scrollTop() ) && ( $this.offset().top + $this.height() - $(window).height()/2 > $(window).scrollTop() ) ) {
 				navigationItems.eq(activeSection).addClass('is-selected');
+                $('activeSection .cd-label').css('color','#0097a7');
 			}else {
 				navigationItems.eq(activeSection).removeClass('is-selected');
 			}
@@ -53,7 +54,10 @@ jQuery(document).ready(function($){
             var button = $('#cd-vertical-nav a[href="#'+$this.attr('id')+'"]').data('number') - 1;
             if ( ( $this.offset().top - $(window).height()/2 < $(window).scrollTop() ) && ( $this.offset().top + $this.height() - $(window).height()/2 > $(window).scrollTop() ) ) {
                 navigationItems.eq(button).addClass('is-selected1');
-                $('.cd-label').css('color','#0097a7');
+                $('.cd-label').css('color','#546e7a');
+                $('#final_ID').css('color','#0097a7');
+
+
             } else {
                 navigationItems.eq(button).removeClass('is-selected1');
                 $('.cd-label').css('color','white');

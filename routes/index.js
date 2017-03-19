@@ -48,3 +48,8 @@ exports.view1 = function(req, res){
  exports.view2 = function(req, res){
   res.render('sorry1');
   };
+
+
+ exports.view3 = function(req, res){
+  res.render('test');
+  };
