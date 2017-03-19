@@ -294,6 +294,14 @@ Main components
 
 }
 
+#paragraph_intro {
+  visibility: hidden;
+}
+
+#iphone_align {
+  visibility: hidden;
+}
+
 
 .iphone2 {
   max-width: 100%;

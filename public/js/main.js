@@ -6,10 +6,23 @@ jQuery(document).ready(function($){
 
 
   var options = [
-    {selector: '.iphone1', offset: 700, callback: function(el) {
+    {selector: '.iphone1', offset: 300, callback: function(el) {
     	$('.iphone1').css('visibility', 'visible');
     	$('.iphone1').addClass('animated slideInLeft');
-      
+    } }
+  ];
+
+    var options1 = [
+    {selector: '#paragraph_intro', offset: 300, callback: function(el) {
+      $('#paragraph_intro').css('visibility', 'visible');
+      $('#paragraph_intro').addClass('animated slideInRight');
+    } }
+  ];
+
+      var options3 = [
+    {selector: '#iphone_align', offset: 300, callback: function(el) {
+      $('#iphone_align').css('visibility', 'visible');
+      $('#iphone_align').addClass('animated slideInUp');
     } }
   ];
 /*
@@ -23,7 +36,7 @@ jQuery(document).ready(function($){
   **/
 
    var options2 = [
-    {selector: '.cd-fixed-bg.cd-bg-4', offset: 880, callback: function(el) {
+    {selector: '.cd-fixed-bg.cd-bg-4', offset: 250, callback: function(el) {
             // create the notification
     var notification = new NotificationFx({
 
@@ -65,6 +78,8 @@ jQuery(document).ready(function($){
   ];
 
   Materialize.scrollFire(options);
+  Materialize.scrollFire(options1);
+  Materialize.scrollFire(options3);
   /*
   Materialize.scrollFire(options1);
   **/
