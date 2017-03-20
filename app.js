@@ -15,6 +15,9 @@ var index = require('./routes/index');
 var resume = require('./routes/resume');
 var app = express();
 
+//compress responses
+app.use(compression());
+
 // all environments
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
@@ -29,7 +32,6 @@ app.use(express.cookieParser('Intro HCI secret key'));
 app.use(express.session());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(compression());
 
 // development only
 if ('development' == app.get('env')) {
