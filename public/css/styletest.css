@@ -82,7 +82,7 @@ Main components
     height: 70px;
   }
   .cd-header #cd-logo {
-    margin: 23px 0 0 5%;
+    margin: 17px 0 0 5%;
   }
 }
 
@@ -516,7 +516,17 @@ Main components
 .link_color_change {
   color: #fff !important;
 }
+.link_color_change:active {
+  color: #546e7a !important;
+}
 
 .link_color_change:hover {
   color: #546e7a !important;
 }
+.link_color_change:focus {
+  color: #546e7a !important;
+}
+#portfolio_link:focus {
+  outline: none;
+}
+

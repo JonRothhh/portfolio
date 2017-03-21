@@ -70,12 +70,15 @@ function changeHeaderColor() {
             $this = $('#section1'); 
             if ($(window).scrollTop() >= $('.cd-fixed-bg.cd-bg-1').height() - 70) {
                 $('.cd-header').addClass('menuColorChange');
-                $('.cd-main-nav a').addClass('hvr-bounce-to-bottom1');
-                $('.cd-main-nav a').addClass('link_color_change');
+                $('.cd-main-nav a').addClass('hvr-bounce-to-bottom1 link_color_change');
+                $('#portfolio_link').focus();
+                $('#title').css('color','#fff');
             } else {
                 $('.cd-header').removeClass('menuColorChange');
                 $('.cd-main-nav a').removeClass('link_color_change');
                 $('.cd-main-nav a').removeClass('hvr-bounce-to-bottom1');
+                $('#title').css('color','#31343C');
+                $('#portfolio_link').blur();
             }
         });
     };
