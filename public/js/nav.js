@@ -91,7 +91,7 @@ function changeHeaderColor() {
 
 	function smoothScroll(target) {
         $('body,html').animate(
-        	{'scrollTop':target.offset().top - 50},
+        	{'scrollTop':target.offset().top - 70},
         	600
         );
 
