@@ -26,6 +26,12 @@ jQuery(document).ready(function($){
         smoothScroll($(this.hash));
     });
 
+    //smooth scroll back to top
+      $('#title1').on('click', function(event){
+        event.preventDefault();
+        smoothScroll($(this.hash));
+    });
+
     //open-close navigation on touch devices
     $('.touch .cd-nav-trigger').on('click', function(){
     	$('.touch #cd-vertical-nav').toggleClass('open');
