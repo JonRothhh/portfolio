@@ -25,15 +25,7 @@ jQuery(document).ready(function($){
       $('#iphone_align').addClass('animated slideInUp');
     } }
   ];
-/*
-  var options1 = [
-    {selector: '.circle_feel', offset: 300, callback: function(el) {
-      $('.circle_feel').css('visibility', 'visible');
-      $('.circle_feel').addClass('animated slideInDown');
-      
-    } }
-  ];
-  **/
+
 
    var options2 = [
     {selector: '.cd-fixed-bg.cd-bg-4', offset: 250, callback: function(el) {
