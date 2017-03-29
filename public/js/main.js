@@ -62,9 +62,6 @@ jQuery(document).ready(function($){
 
   Materialize.scrollFire(options);
 
-  /*
-  Materialize.scrollFire(options1);
-  **/
   $("#container_height").height($("#section3").height());
   $("#row_height").height($("#section3").height());
   $("#col_height").height($("#section3").height());
