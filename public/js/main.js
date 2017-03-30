@@ -75,15 +75,12 @@ jQuery(document).ready(function($){
 
 $(document).ready(function() {
 
-  var font_size = parseInt($("#section3").css("font-size")) * 2;
-  console.log(font_size);
-
- $("#iphone_align").height($("#second_infopage").height() - font_size - ($("#needfinding_height").height() + 20 + $("#p_height").height() + 20));
+var font_size = parseInt($("#section3").css("font-size")) * 2;
+$("#iphone_align").height($("#second_infopage").height() - font_size - ($("#needfinding_height").height() + 20 + $("#p_height").height() + 20));
 
   $(window).resize(function() {
     var font_size = parseInt($("#section3").css("font-size")) * 2;
     $("#iphone_align").height($("#second_infopage").height() - font_size - ($("#needfinding_height").height() + 20 + $("#p_height").height() + 20));
-    console.log(font_size);
   });
 });
 
