@@ -1,4 +1,5 @@
 jQuery(document).ready(function($){
+
 	//open-close submenu on mobile
 	$('.cd-main-nav').on('click', function(event){
 		if($(event.target).is('.cd-main-nav')) $(this).children('ul').toggleClass('is-visible');
@@ -74,10 +75,15 @@ jQuery(document).ready(function($){
 
 $(document).ready(function() {
 
-  $("#iphone_align").height($("#col_height").height() - ($("#needfinding_height").height() + $("#p_height").height()));
+  var font_size = parseInt($("#section3").css("font-size")) * 2;
+  console.log(font_size);
+
+ $("#iphone_align").height($("#second_infopage").height() - font_size - ($("#needfinding_height").height() + 20 + $("#p_height").height() + 20));
 
   $(window).resize(function() {
-     $("#iphone_align").height($(".cd-scrolling-bg.cd-color-3").height() - ($("#needfinding_height").height() + $("#p_height").height()));
+    var font_size = parseInt($("#section3").css("font-size")) * 2;
+    $("#iphone_align").height($("#second_infopage").height() - font_size - ($("#needfinding_height").height() + 20 + $("#p_height").height() + 20));
+    console.log(font_size);
   });
 });
 
