@@ -76,6 +76,10 @@ $(document).ready(function() {
 
   $("#iphone_align").height($("#col_height").height() - ($("#needfinding_height").height() + $("#p_height").height()));
 
+  $(window).resize(function() {
+     $("#iphone_align").height($(".cd-scrolling-bg.cd-color-3").height() - ($("#needfinding_height").height() + $("#p_height").height()));
+  });
+});
 
 
 }); /*the end bracket**/
