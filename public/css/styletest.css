@@ -413,7 +413,6 @@ Main components
    font-weight: 300;
    font-size: 1vw;
    text-align: center;
-   padding-bottom: 20px;
    color: #37474f;
   }
 
@@ -443,7 +442,7 @@ Main components
   }
 
   .col-md-6.one{
-    padding-top: 300px;
+    padding-top: 28vh;
     font-size: 1.5vh;
   }
 
