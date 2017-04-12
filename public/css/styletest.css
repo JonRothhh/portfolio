@@ -613,17 +613,92 @@ Main components
   transform:translateY(8px)
 }
 
-@keyframes fade_In {
-    from {visibility: hidden;}
-    to {visibility: show;}
+/** CSS styles for contact page **/
+#contact_me {
+  background:url(/images/test.png) no-repeat bottom #31343C;
+  background-position: 50% 100%;
+  background-size: 100%;
+  padding-bottom: 500px;
 }
 
-/**
-  a:hover, a img:hover {
-    color: #d12b52;
-    transition-duration: 0.15s;
-    transition-delay: 0s; }
-  */
+#row_align {
+  text-align: center;
+  color: white;
+}
+
+#contact_me_title {
+  margin-top: 192px; 
+  font-weight: bold;
+  text-transform: uppercase; 
+  letter-spacing: 0.07em;
+  line-height: 36px;
+}
+
+#linkedin_row {
+  color: white;
+  padding-top:200px;
+  background:transparent;
+  text-align: center;
+}
+
+#linkedin_link {
+  color: white;
+}
+
+#linkedin_icon {
+  margin-right: 12px;
+  font-size: 60px;
+}
+
+#linkedin_text {
+  left: 0;
+  right: 0;
+  padding-right: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  opacity: 0;
+}
+
+#mail_link {
+  color: white;
+}
+
+#mail_icon {
+  margin-right: 12px;
+  font-size: 60px;
+  vertical-align: middle;
+}
+
+#email_text {
+  left: 0;
+  right: 0;
+  padding-right: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  opacity: 0;
+}
+
+#github_link {
+  color: white;
+}
+
+#github_icon {
+  margin-right: 12px;
+  font-size: 60px;
+  vertical-align: middle;
+}
+
+#github_text {
+  left: 0;
+  right: 0;
+  padding-right: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  opacity: 0;
+}
 
 
 
