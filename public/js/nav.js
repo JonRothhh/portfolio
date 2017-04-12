@@ -111,7 +111,6 @@ jQuery(document).ready(function($){
         };
 
     function revertHeader() {
-        contentSections.each(function(){
                 $this = $('#section1'); 
                 if ($(window).scrollTop() >= $('.cd-main-content').height() + $('.cd-scrolling-bg.cd-color-2').height() + $('.cd-fixed-bg.cd-bg-2').height() + $('.cd-scrolling-bg.cd-color-3').height() 
                         + $('.cd-fixed-bg.cd-bg-3').height() + $('.cd-scrolling-bg.cd-color-1').height() + ($('.cd-fixed-bg.cd-bg-4').height()) - 70) {
@@ -127,7 +126,6 @@ jQuery(document).ready(function($){
                            $('#github_icon').append('<h4>hello world</h4>');
                         }); **/
                 };
-            });
         };
 
         //linkedin icon effect
