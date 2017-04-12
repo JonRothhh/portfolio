@@ -535,5 +535,95 @@ Main components
   } 
 }
 
+.arrow {
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    width: 0;
+    height: 0;
+    border-left: 27px solid transparent;
+    border-right: 27px solid transparent;
+    border-top: 27px solid #F6FCFC;
+    margin: auto;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-delay: 1.8s;
+    animation-delay: 1.8s;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-name: arrowin;
+    animation-name: arrowin;
+}
+
+@-webkit-keyframes arrowin {
+  0% {
+    -webkit-transform: translate(0, -30px);
+    transform: translate(0, -30px); }
+  100% { } }
+
+@keyframes arrowin {
+  0% {
+    -webkit-transform: translate(0, -30px);
+    transform: translate(0, -30px); }
+  100% { } 
+}
+
+.arrow.out, .arrowb.out, .arrowc.out {
+  -webkit-transform: translate(0, -27px);
+  transform: translate(0, -27px); }
+
+  .head h5::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 45px;
+    height: 5px;
+    margin-left: -23px;
+    background: white;
+}
+
+#mail_icon:hover {
+  color: #546e7a;
+}
+
+#linkedin_icon:hover {
+  color: #546e7a;
+}
+
+#github_icon:hover {
+  color: #546e7a;
+}
+
+.sink_trial {
+  vertical-align:middle;
+  -webkit-transform:perspective(1px) translateZ(0);
+  transform:perspective(1px) translateZ(0);
+  box-shadow:0 0 1px transparent;
+  -webkit-transition-duration:.3s;
+  transition-duration:.3s;
+  -webkit-transition-property:transform;
+  transition-property:transform;
+  -webkit-transition-timing-function:ease-out;
+  transition-timing-function:ease-out;
+}
+
+.hover {
+  transition-duration:.3s;
+  -webkit-transform:translateY(8px);
+  transform:translateY(8px)
+}
+
+@keyframes fade_In {
+    from {visibility: hidden;}
+    to {visibility: show;}
+}
+
+/**
+  a:hover, a img:hover {
+    color: #d12b52;
+    transition-duration: 0.15s;
+    transition-delay: 0s; }
+  */
+
 
 
