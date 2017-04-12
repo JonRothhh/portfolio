@@ -103,7 +103,7 @@ jQuery(document).ready(function($){
     function arrowChange() {
         contentSections.each(function(){
                  if ($(window).scrollTop() >= $('.cd-main-content').height() + $('.cd-scrolling-bg.cd-color-2').height() + $('.cd-fixed-bg.cd-bg-2').height() + $('.cd-scrolling-bg.cd-color-3').height() 
-                        + $('.cd-fixed-bg.cd-bg-3').height() + $('.cd-scrolling-bg.cd-color-1').height() + ($('.cd-fixed-bg.cd-bg-4').height() * .50) - 70) {
+                        + $('.cd-fixed-bg.cd-bg-3').height() + $('.cd-scrolling-bg.cd-color-1').height() + ($('.cd-fixed-bg.cd-bg-4').height() * .45) - 70) {
                     $('.arrow').addClass('out');
                 } else {
                     $('.arrow').removeClass('out');
