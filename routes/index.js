@@ -18,3 +18,7 @@ exports.view1 = function(req, res){
  exports.view3 = function(req, res){
   res.render('test');
   };
+
+   exports.view4 = function(req, res){
+  res.render('sitemap');
+  };
