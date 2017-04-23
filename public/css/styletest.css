@@ -209,12 +209,10 @@ Main components
   background-image: url("../images/portfolio.jpg");
 }
 .cd-fixed-bg.cd-bg-2 {
-  background-image: url("https://source.unsplash.com/mwWJul4WkqU/1600x900");
- 
-  
+  background-image: linear-gradient(to bottom, rgba(62,57,71,0), rgba(62,57,71,.7)),url("https://source.unsplash.com/BbQLHCpVUqA/1600x900");
 }
 .cd-fixed-bg.cd-bg-3 {
-  background-image: url("https://source.unsplash.com/Fsw4uEDuQTY/1600x900");
+  background-image: linear-gradient(to bottom, rgba(62,57,71,0), rgba(62,57,71,.7)),url("https://source.unsplash.com/gcsNOsPEXfs/1600x900");
   
   
 }
@@ -705,6 +703,8 @@ Main components
   letter-spacing: 0.07em;
   opacity: 0;
 }
+
+
 
 /** Ending for Contact Page CSS **/
 
