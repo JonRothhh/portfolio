@@ -209,16 +209,19 @@ Main components
   background-image: url("../images/portfolio.jpg");
 }
 .cd-fixed-bg.cd-bg-2 {
-  background-image: url("../images/cd-background-2.jpg");
-  height: 95%;
+  background-image: url("https://source.unsplash.com/mwWJul4WkqU/1600x900");
+ 
+  
 }
 .cd-fixed-bg.cd-bg-3 {
-  background-image: url("../images/cd-background-3.jpg");
-  height: 95%;
+  background-image: url("https://source.unsplash.com/Fsw4uEDuQTY/1600x900");
+  
+  
 }
 .cd-fixed-bg.cd-bg-4 {
-  background-image: url("../images/citywall.jpg");
-  height: 95%;
+  background-image: url("https://source.unsplash.com/ZlZlx5SZcCs/1600x900");
+  
+  
 }
 @media only screen and (min-width: 768px) {
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
@@ -413,12 +416,13 @@ Main components
    font-weight: 300;
    font-size: 1vw;
    text-align: center;
-   color: #37474f;
+   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+   color: white;
   }
 
   .contributions_style {
     font-family: pacifico;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
    /* padding-top: 5vw;*/
     /*padding-right: 80px;*/
   }
@@ -443,7 +447,7 @@ Main components
   }
 
   .col-md-6.one{
-    padding-top: 28vh;
+    padding-top: 20vh;
     font-size: 1.5vh;
   }
 
@@ -542,7 +546,7 @@ Main components
     height: 0;
     border-left: 27px solid transparent;
     border-right: 27px solid transparent;
-    border-top: 27px solid #96D6E0;
+    border-top: 27px solid #000001;
     margin: auto;
     -webkit-animation-duration: 0.5s;
     animation-duration: 0.5s;
@@ -583,15 +587,15 @@ Main components
 }
 
 #mail_icon:hover {
-  color: #546e7a;
+  color: #d8dfe3;
 }
 
 #linkedin_icon:hover {
-  color: #546e7a;
+  color: #d8dfe3;
 }
 
 #github_icon:hover {
-  color: #546e7a;
+  color: #d8dfe3;
 }
 
 .sink_trial {
@@ -615,7 +619,8 @@ Main components
 
 /** CSS styles for contact page **/
 #contact_me {
-  background:url(/images/test.jpg) no-repeat bottom #31343C;
+ /* background:url(/images/test.jpg) no-repeat bottom #31343C;*/
+ background: url(https://source.unsplash.com/HzXhY9Wgzbw/1600x900);
   background-position: 50% 100%;
   background-size: 100%;
   padding-bottom: 500px;

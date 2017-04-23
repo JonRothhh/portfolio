@@ -5,7 +5,7 @@ jQuery(document).ready(function($){
 	updateNavigation();
 	$(window).on('scroll', function(){
 		updateNavigation();
-        changeNavColor();
+       
         changeHeaderColor();
         arrowChange();
         revertHeader();
@@ -67,6 +67,7 @@ jQuery(document).ready(function($){
 		});
 	}
 
+   /*
     function changeNavColor() {
         contentSections.each(function(){
             $this = $('#section5'); 
@@ -81,6 +82,7 @@ jQuery(document).ready(function($){
             }
         });
     };
+    */
 
     function changeHeaderColor() {
         contentSections.each(function(){
@@ -102,7 +104,7 @@ jQuery(document).ready(function($){
 
     function arrowChange() {
                  if ($(window).scrollTop() >= $('.cd-main-content').height() + $('.cd-scrolling-bg.cd-color-2').height() + $('.cd-fixed-bg.cd-bg-2').height() + $('.cd-scrolling-bg.cd-color-3').height() 
-                        + $('.cd-fixed-bg.cd-bg-3').height() + $('.cd-scrolling-bg.cd-color-1').height() + ($('.cd-fixed-bg.cd-bg-4').height() * .45) - 70) {
+                        + $('.cd-fixed-bg.cd-bg-3').height() + $('.cd-scrolling-bg.cd-color-1').height() + ($('.cd-fixed-bg.cd-bg-4').height() * .30) - 70) {
                     $('.arrow').addClass('out');
                 } else {
                     $('.arrow').removeClass('out');
