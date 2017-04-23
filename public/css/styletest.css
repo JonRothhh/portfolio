@@ -621,6 +621,7 @@ Main components
 #contact_me {
  /* background:url(/images/test.jpg) no-repeat bottom #31343C;*/
  background: url(https://source.unsplash.com/HzXhY9Wgzbw/1600x900);
+  background-size: cover;
   background-position: 50% 100%;
   background-size: 100%;
   padding-bottom: 500px;
