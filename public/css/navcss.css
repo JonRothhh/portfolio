@@ -1,4 +1,4 @@
-/* -------------------------------- 
+/* --------------------------------
 -------------------------------- */
 html * {
   -webkit-font-smoothing: antialiased;
@@ -32,7 +32,7 @@ img {
 }
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Modules - reusable parts of our design
 
@@ -45,9 +45,9 @@ Modules - reusable parts of our design
   white-space: nowrap;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main components 
+Main components
 
 -------------------------------- */
 .cd-section {
@@ -122,7 +122,7 @@ Main components
   opacity: 1;
 }
 .no-touch #cd-vertical-nav a.is-selected .cd-dot {
-  background-color: #cfd8dc;
+  background-color: #0097a7;
 }
 
 .no-touch #cd-vertical-nav a.is-selected1.cd-dot {
