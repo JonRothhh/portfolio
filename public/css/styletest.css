@@ -62,7 +62,7 @@ Main components
   height: 50px;
   transition-duration: .2s;
   background: rgba(255, 255, 255, 0.95);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.1);
   z-index: 2;
 }
 .cd-header:after {
@@ -309,7 +309,7 @@ Main components
 
 .menuColorChange {
   transition-duration: .2s;
-  background: rgba(55, 71, 79,0.85);
+  background: rgba(55, 71, 79,0.95);
 }
 
 
@@ -585,15 +585,15 @@ Main components
 }
 
 #mail_icon:hover {
-  color: #d8dfe3;
+  color: #546e7a;
 }
 
 #linkedin_icon:hover {
-  color: #d8dfe3;
+  color: #007bb5;
 }
 
 #github_icon:hover {
-  color: #d8dfe3;
+  color: #24292e;
 }
 
 .sink_trial {
