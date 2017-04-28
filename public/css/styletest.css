@@ -1,4 +1,4 @@
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -31,7 +31,7 @@ a {
   text-decoration: none;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Modules - reusable parts of our design
 
@@ -49,9 +49,9 @@ Modules - reusable parts of our design
   clear: both;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main components 
+Main components
 
 -------------------------------- */
 .cd-header {
@@ -213,13 +213,13 @@ Main components
 }
 .cd-fixed-bg.cd-bg-3 {
   background-image: linear-gradient(to bottom, rgba(62,57,71,0), rgba(62,57,71,.7)),url("https://source.unsplash.com/gcsNOsPEXfs/1600x900");
-  
-  
+
+
 }
 .cd-fixed-bg.cd-bg-4 {
   background-image: url("https://source.unsplash.com/ZlZlx5SZcCs/1600x900");
-  
-  
+
+
 }
 @media only screen and (min-width: 768px) {
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
@@ -251,12 +251,12 @@ Main components
 .cd-scrolling-bg.cd-color-2 {
   color: white;
   background-color: #37474f;
-  
+
 }
 .cd-scrolling-bg.cd-color-3 {
   background-color: #37474f;
   color: white;
-  
+
 }
 @media only screen and (min-width: 768px) {
   .cd-scrolling-bg {
@@ -285,7 +285,7 @@ Main components
   left: 0;
   right: 0;
   margin-top: 106px;
-  width:375px; 
+  width:375px;
   height:664px;
 }
 
@@ -394,7 +394,7 @@ Main components
     letter-spacing: .05em;
     text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.95), 2px 2px 0px rgba(0, 0, 0, 0.2);
   }
-  
+
 
 
   .introduction_paragraph {
@@ -424,7 +424,7 @@ Main components
    /* padding-top: 5vw;*/
     /*padding-right: 80px;*/
   }
-  
+
 
   .cd-container.one {
 
@@ -457,7 +457,7 @@ Main components
     padding-right: 0px;
     */
   }
-  
+
 
   #section4 {
     max-height: 100%;
@@ -505,6 +505,7 @@ Main components
 
 #last_page {
   overflow: hidden;
+  height: auto;
 }
 
 #three_pairs_page {
@@ -532,9 +533,9 @@ Main components
   outline: none;
 }
 @media (max-width: 992px) {
-  #infohub_interaction { 
-    display: none; 
-  } 
+  #infohub_interaction {
+    display: none;
+  }
 }
 
 .arrow {
@@ -566,7 +567,7 @@ Main components
   0% {
     -webkit-transform: translate(0, -30px);
     transform: translate(0, -30px); }
-  100% { } 
+  100% { }
 }
 
 .arrow.out, .arrowb.out, .arrowc.out {
@@ -631,9 +632,9 @@ Main components
 }
 
 #contact_me_title {
-  margin-top: 192px; 
+  margin-top: 192px;
   font-weight: bold;
-  text-transform: uppercase; 
+  text-transform: uppercase;
   letter-spacing: 0.07em;
   line-height: 36px;
 }
@@ -707,6 +708,3 @@ Main components
 
 
 /** Ending for Contact Page CSS **/
-
-
-
